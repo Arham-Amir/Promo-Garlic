@@ -23,9 +23,14 @@
     <meta content="Webflow" name="generator" />
 
     <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="./assets/fonts.googleapis.com/css.css" rel="preconnect" />
+    <link href="./assets/fonts.gstatic.com/s/greatvibes/v15/RWmMoKWR9v4ksMfaWd_JN9XFiaQ.woff2" rel="preconnect"
+        crossorigin="anonymous" />
+    <link href="./assets/fonts.gstatic.com/s/karla/v30/qkB9XvYC6trAT55ZBi1ueQVIjQTD-JrIH2G7nytkHRyQ8p4wUje6bg.woff2"
+        rel="preconnect" crossorigin="anonymous" />
+    <link href="./assets/fonts.gstatic.com/s/oswald/v49/TK3iWkUHHAIjg752GT8G.woff2" rel="preconnect"
+        crossorigin="anonymous" />
 
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
     <script src="./assets/ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
     <script type="text/javascript">
         WebFont.load({
@@ -49,44 +54,10 @@
 </head>
 
 <body class="body">
-    <div class="preloader">
+    <!-- <div class="preloader">
         <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/59fa9b0478cc2d0001ff0cb3_preloader.svg"
             alt="" class="preloader-icon" />
-    </div>
-    <div class="quick-booking w-hidden-small w-hidden-tiny">
-        <a href="#" data-w-id="d122e4e4-65b2-9cea-b966-80e7a56bb2e1" class="quick-booking-header w-inline-block">
-            <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/5a59a6f624d14a0001985848_bell-icon-white.svg"
-                alt="" class="quick-booking-icon" />
-            <div>Quick Booking</div>
-            <div class="quick-booking-arrow-box">
-                <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f82b9ebaa31800016706f0_arrow-up-icon-white.svg"
-                    alt="" class="quick-booking-arrow" />
-            </div>
-        </a>
-        <div class="quick-booking-form w-form">
-            <form id="wf-form-Quick-Booking-Form" name="wf-form-Quick-Booking-Form" data-name="Quick Booking Form"
-                method="get">
-                <input type="text" class="input small-margin w-input" autofocus="true" maxlength="256" name="Name"
-                    data-name="Name" placeholder="Full name" id="Q-Name" />
-                <input type="text" class="input small-margin w-input" maxlength="256" name="Phone" data-name="Phone"
-                    placeholder="Phone number" id="Q-Phone" required="" />
-                <input type="text" class="input small-margin w-input" maxlength="256" name="Date" data-name="Date"
-                    placeholder="Date" id="Q-Date" />
-                <input type="text" class="input small-margin w-input" maxlength="256" name="Time" data-name="Time"
-                    placeholder="Time" id="Q-Time" />
-                <input type="text" class="input small-margin w-input" maxlength="256" name="People" data-name="People"
-                    placeholder="Number of people" id="Q-People" />
-                <input type="submit" value="Book a Table" data-wait="Please wait..."
-                    class="button full-width-button w-button" />
-            </form>
-            <div class="form-success w-form-done">
-                <div>Thank you! Your submission has been received!</div>
-            </div>
-            <div class="form-error w-form-fail">
-                <div>Oops! Something went wrong while submitting the form.</div>
-            </div>
-        </div>
-    </div>
+    </div> -->
     <div class="page-wrapper">
         <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease"
             role="banner" class="nav-bar fixed-nav-bar w-nav">
@@ -99,22 +70,13 @@
                 </a>
                 <nav role="navigation" class="nav-menu fixed-nav-menu w-nav-menu">
                     <a href="/" aria-current="page" class="nav-link fixed-nav-link w-nav-link w--current">Home</a>
-                    <div data-delay="0" data-hover="true" class="w-dropdown">
-                        <div class="nav-link fixed-nav-link w-dropdown-toggle">
-                            <div class="dropdown-icon w-icon-dropdown-toggle"></div>
-                            <div>Menu</div>
-                        </div>
-                        <nav class="dropdown fixed-dropdown w-dropdown-list">
-                            <a href="/menu-grid" class="dropdown-link w-dropdown-link">Menu Grid</a>
-                            <a href="/menu-small-grid" class="dropdown-link w-dropdown-link">Menu Small Grid</a>
-                            <a href="/menu-list" class="dropdown-link w-dropdown-link">Menu List</a>
-                            <a href="/menu-classic" class="dropdown-link w-dropdown-link">Menu Classic</a>
-                        </nav>
-                    </div>
-                    <a href="/blog" class="nav-link fixed-nav-link w-nav-link">Blog</a>
-                    <a href="/about" class="nav-link fixed-nav-link w-nav-link">About</a>
-                    <a href="/contact" class="nav-link fixed-nav-link w-nav-link">Contact</a>
-                    <a href="/reservation" class="button small-button nav-bar-button w-button">Reservation</a>
+                    <a href="/gallery.html" class="nav-link fixed-nav-link w-nav-link">Gallery</a>
+                    <a href="/about.html" class="nav-link fixed-nav-link w-nav-link">About</a>
+                    <a href="/contact.html" class="nav-link fixed-nav-link w-nav-link">Contact</a>
+                    <a href="https://mvp-launch.com/clients/promogroup/"
+                        class="nav-link fixed-nav-link w-nav-link">Bricks</a>
+                    <a href="https://wa.me/923071996482" class="button small-button nav-bar-button w-button">Book
+                        Now</a>
                 </nav>
                 <div class="menu-button fixed-menu-button w-nav-button">
                     <div class="w-icon-nav-menu"></div>
@@ -133,22 +95,13 @@
                     </a>
                     <nav role="navigation" class="nav-menu w-nav-menu">
                         <a href="/" aria-current="page" class="nav-link w-nav-link w--current">Home</a>
-                        <div data-delay="0" data-hover="true" class="w-dropdown">
-                            <div class="nav-link w-dropdown-toggle">
-                                <div class="dropdown-icon w-icon-dropdown-toggle"></div>
-                                <div>Menu</div>
-                            </div>
-                            <nav class="dropdown w-dropdown-list">
-                                <a href="/menu-grid" class="dropdown-link w-dropdown-link">Menu Grid</a>
-                                <a href="/menu-small-grid" class="dropdown-link w-dropdown-link">Menu Small Grid</a>
-                                <a href="/menu-list" class="dropdown-link w-dropdown-link">Menu List</a>
-                                <a href="/menu-classic" class="dropdown-link w-dropdown-link">Menu Classic</a>
-                            </nav>
-                        </div>
-                        <a href="/blog" class="nav-link w-nav-link">Blog</a>
-                        <a href="/about" class="nav-link w-nav-link">About</a>
-                        <a href="/contact" class="nav-link w-nav-link">Contact</a>
-                        <a href="/reservation" class="button small-button nav-bar-button w-button">Reservation</a>
+                        <a href="/gallery.html" class="nav-link fixed-nav-link w-nav-link">Gallery</a>
+                        <a href="/about.html" class="nav-link w-nav-link">About</a>
+                        <a href="/contact.html" class="nav-link w-nav-link">Contact</a>
+                        <a href="https://mvp-launch.com/clients/promogroup/"
+                            class="nav-link fixed-nav-link w-nav-link">Bricks</a>
+                        <a href="https://wa.me/923071996482" class="button small-button nav-bar-button w-button">Book
+                            Now</a>
                     </nav>
                     <div class="menu-button w-nav-button">
                         <div class="w-icon-nav-menu"></div>
@@ -159,23 +112,20 @@
                 <a href="#" class="hero-phone w-inline-block">
                     <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f82c35aab684000124d7be_call-icon.svg"
                         alt="" class="hero-phone-icon" />
-                    <div>8 (800) 316-06-42</div>
+                    <div>0307 1996482</div>
                 </a>
                 <div class="social-icons hero-icons">
                     <a href="https://twitter.com" target="_blank"
                         class="social-link hero-link w-inline-block twitter-link">
-                        <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/59e98418f9cd070001c89db7_twitter-icon-white.svg"
-                            alt="" />
+                        <img src="./assets/images/twitter-icon.svg" alt="" />
                     </a>
                     <a href="https://facebook.com" target="_blank"
                         class="social-link hero-link w-inline-block facebook-link">
-                        <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/59e98418f9cd070001c89dae_facebook-icon-white.svg"
-                            alt="" />
+                        <img src="./assets/images/facebook-icon.svg" alt="" />
                     </a>
                     <a href="https://instagram.com" target="_blank"
                         class="social-link hero-link w-inline-block instagram-link">
-                        <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/59e98418f9cd070001c89daf_instagram-icon-white.svg"
-                            alt="" />
+                        <img src="./assets/images/instagram-icon.svg" alt="" />
                     </a>
                 </div>
             </div>
@@ -188,16 +138,17 @@
                             <div class="slide-content">
                                 <h1>Promo Garlic</h1>
                                 <div data-ix="fade-up-2" class="divider center"></div>
-                                <p data-ix="fade-up-3" class="paragraph-big hero-text">Fish is one of the most wholesome
-                                    foods that man can eat. In fact, people have been eating fish throughout human
-                                    history.</p>
+                                <p data-ix="fade-up-3" class="paragraph-big hero-text">We are offering Genuine NARC G1
+                                    garlic seeds for pre-booking of 2023 crop and providing FREE consultancy to farmers.
+                                    Schedule a video call or visit our farms before purchasing with satisfaction. Our
+                                    bookings are limited and will be served on a ‘first-come first-served’ basis.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
-        <div class="section pattern-section wf-section">
+        <div class="section pattern-section wf-section" style="margin-top:90px">
             <div class="wrapper w-container">
                 <div class="side-image-wrapper">
                     <img src="./assets/images/garlic.jpg" style="opacity:0"
@@ -205,18 +156,23 @@
                         sizes="(max-width: 479px) 81vw, (max-width: 767px) 82vw, (max-width: 991px) 48vw, 35vw" alt=""
                         class="side-image" />
                     <div data-ix="fade-left" class="side-image-content">
-                        <span><img src="./assets/images/5star.svg" alt=""></span>
                         <h2 data-w-id="507cf9d6-269f-3020-8d18-b36d70e138c8" style="opacity:0">NARC G1 Garlic</h2>
                         <div data-w-id="f55b6c00-a63b-fc09-68b4-0d2698d5ec45" style="opacity:0" class="divider"></div>
-                        <p data-w-id="8a665940-fd5f-4da3-76b5-2ff45789fa6c" style="opacity:0" class="grey-text">Fish is
-                            We are growers & distributors of Narc G1 Garlic based in Sahiwal, Pakistan. We are committed
-                            to provide high quality garlic in large quantities at competitive prices. What you can also
-                            get from SeedsPk</p>
+                        <p data-w-id="8a665940-fd5f-4da3-76b5-2ff45789fa6c" style="opacity:0" class="grey-text">We are
+                            growers & distributors of Narc G1 Garlic based in Sahiwal, Pakistan. We are committed to
+                            provide high quality garlic in large quantities at competitive prices. What you can also get
+                            from Promo Garlic</p>
                         <ul class="garlic">
                             <li>Free Consultancy</li>
+                            <li>Narc G1 Garlic</li>
                             <li>Land Preparation Tips</li>
                             <li>Purchase of NARC G1 Seed</li>
                             <li>Plant Protection Techniques</li>
+                            <li>Why G1 Garlic is so Expensive</li>
+                            <li>G1 Garlic Price per KG</li>
+                            <li>NARC G1 Garlic Price in Pakistan today</li>
+                            <li>G1 Garlic price in Pakistan 2023</li>
+                            <li>G1 Garlic benefits</li>
                         </ul>
                         <div style="display: flex; margin-top: 24px;">
                             <img src="https://seedspk.com/wp-content/uploads/2022/12/narc-certified.svg" width="125"
@@ -232,222 +188,95 @@
         </div>
         <!-- New Section Start -->
         <div class="bg-section cta-section wf-section">
-            <div class="wrapper w-container section-content">
-                <div data-ix="fade-up-1" class="cta-content">
+            <div class="pattern-section">
+                <div class="box">
+                    <img class="section-content-image" src="./assets/images/sowing-seeds.webp" alt="">
+                    <h3 class="green-text">Sowing Time</h3>
+                    <p>Sowing time is October to November</p>
+                </div>
+
+                <div class="box">
+                    <img class="section-content-image" src="./assets/images/harvest.webp" alt="">
+                    <h3 class="green-text">Harvest Time</h3>
+                    <p>G1 Garlic is harvested after 6-7 months in May to June</p>
+                </div>
+
+                <div class="box">
+                    <img class="section-content-image" src="./assets/images/weighing-machine.webp" alt="">
+                    <h3 class="green-text">Average Bulb Weight</h3>
+                    <p>Average bulb weight of fresh G1 Garlic is 200-500 grams</p>
+                </div>
+
+                <div class="box">
+                    <img class="section-content-image" src="./assets/images/pakistan.webp" alt="">
+                    <h3 class="green-text">Grow In All Pakistan</h3>
+                    <p>You can grow G1 Garlic in any area in Pakistan</p>
                 </div>
             </div>
-            <div class="wrapper w-container section-content">
-                <div data-ix="fade-up-1" class="cta-content">
-                </div>
-            </div>
+
+
         </div>
         <!-- New Section end -->
-        <div id="Scroll-Section" class="section wf-section">
+        <div class="section pattern-section wf-section">
             <div class="wrapper w-container">
-                <div class="section-header-wrapper">
-                    <div data-w-id="a38902d4-32ae-e303-b281-40b558d474b5" style="opacity:0" class="sub-header">Discover
+                <div class="side-image-wrapper">
+                    <div data-ix="fade-left" class="side-image-content">
+                        <h2 data-w-id="507cf9d6-269f-3020-8d18-b36d70e138c8" style="opacity:0">Pre-Book Now and Get the
+                            BEST Discounted Price on NARC G1 Seed</h2>
+                        <div data-w-id="f55b6c00-a63b-fc09-68b4-0d2698d5ec45" style="opacity:0" class="divider"></div>
+                        <p data-w-id="8a665940-fd5f-4da3-76b5-2ff45789fa6c" style="opacity:0" class="grey-text">If you
+                            are looking for the Genuine NARC G1 Garlic seed you are at the right place. Since 2019
+                            SeedsPk has been growing NARC G1 Garlic and helping farmers to grow G1 garlic. SeedsPK
+                            provides you with the High Quality G1 garlic seed. You can visit our farms and seed storage
+                            facility before purchasing our High Quality seed. Our Experts will also provide our valuable
+                            customers consultancy services and plant protection techniques.</p>
+                        <div style="display: flex; margin-top: 24px;">
+                            <a href="https://wa.me/923071996482" data-w-id="52acb8a8-53b0-f52f-df4d-3bf897a51de8"
+                                style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
+                                class="button w-button">Book Now</a>
+                        </div>
                     </div>
-                    <h2 data-w-id="ce565286-eed9-2f81-ad34-efd62d10f73e" style="opacity:0">New Flavors</h2>
-                    <div data-w-id="074f91ac-a9dc-290c-0404-e09c9f11a70c" style="opacity:0" class="divider"></div>
+                    <img src="./assets/images/prebook.jpg" style="opacity:0"
+                        data-w-id="44e43b9c-af11-999f-1c86-1feb29c04bc2"
+                        sizes="(max-width: 479px) 81vw, (max-width: 767px) 82vw, (max-width: 991px) 48vw, 35vw" alt=""
+                        class="side-image" />
                 </div>
-                <p data-w-id="0fc02ec2-4ac0-917f-5189-31a0e1b8cbf9" style="opacity:0" class="paragraph-big intro-text">
-                    Fish is one of the most wholesome foods that man can eat. In fact, people have been eating fish
-                    throughout human history. These days, many cooks yearn to add fish to their repertoire, but the
-                    whole process of cleaning and filleting fresh fish is a little scary to them. The process of
-                    cleaning and filleting fresh fish is <a href="/blog" class="text-link">relatively simple</a>
-                    once the steps are understood.  To begin, you must clean your fresh fish properly in order to
-                    maintain it’s quality.
-                </p>
             </div>
-            <a href="/about" data-ix="fade-up-4" data-w-id="b1272952-955b-1e16-552f-44627bc6069d" style="opacity:0"
-                class="button w-button">More About Us</a>
         </div>
         <div id="Features" class="section no-paddings wf-section"></div>
-        <div class="section pattern-section wf-section">
-            <div data-ix="fade-up-2" class="wrapper w-container">
-                <div class="section-header-wrapper">
-                    <div data-w-id="fa10dbe6-7dc5-ea32-185f-bd632a3b9e64" style="opacity:0" class="sub-header">Menu
-                    </div>
-                    <h2 data-w-id="30fe2287-ece1-9e60-b65c-6b64491bfaf4" style="opacity:0">Special Dishes</h2>
-                    <div data-w-id="6b14b7b5-fea6-fa61-4412-ef4800fa74e3" style="opacity:0" class="divider"></div>
+        <div class="bg-section huge-button w-inline-block">
+            <div class="features" style="display: flex; flex-direction: column;">
+                <div>
+                    <h1 style="text-align: center;">Narc G1 garlic Seed price in pakistan Today 2023</h1>
                 </div>
-                <div class="w-dyn-list">
-                    <div data-w-id="420f041f-d312-14fd-d00f-50956134476a" style="opacity:0" role="list"
-                        class="menu margin w-dyn-items">
-                        <div role="listitem" class="menu-grid-item w-dyn-item">
-                            <div class="menu-grid-card">
-                                <img src="https://assets.website-files.com/59e98418f9cd070001c89d70/59f917053b32860001831e83_mike-tinnion-365019.jpg"
-                                    alt=""
-                                    sizes="(max-width: 479px) 93vw, (max-width: 767px) 47vw, (max-width: 991px) 31vw, 27vw"
-                                    srcset="https://assets.website-files.com/59e98418f9cd070001c89d70/59f917053b32860001831e83_mike-tinnion-365019-p-500.jpeg 500w, https://assets.website-files.com/59e98418f9cd070001c89d70/59f917053b32860001831e83_mike-tinnion-365019.jpg 740w"
-                                    class="menu-grid-image" />
-                                <a href="/menu-categories/lunch" class="badge menu-item-category">Lunch</a>
-                                <div class="menu-info w-clearfix">
-                                    <div class="menu-info-main">
-                                        <div class="menu-name">Roasted lamb</div>
-                                        <div class="menu-dots-line"></div>
-                                        <div class="menu-price">
-                                            <div>$</div>
-                                            <div>13.70</div>
-                                        </div>
-                                    </div>
-                                    <div class="menu-ingredients">Boneless Lamb Leg, Garlic, Onion, Spices, Rosemary
-                                    </div>
-                                    <div class="menu-more w-clearfix">
-                                        <div class="menu-numbers">
-                                            <div>280</div>
-                                            <div>g.</div>
-                                            <div class="menu-numbers-divider">/</div>
-                                            <div>320</div>
-                                            <div>cal.</div>
-                                        </div>
-                                        <a href="#"
-                                            class="badge menu-item-tooltip w-inline-block w-condition-invisible">
-                                            <div class="tooltip">
-                                                <div>Vegan</div>
-                                                <div class="tooltip-arrow"></div>
-                                            </div>
-                                            <div>V</div>
-                                        </a>
-                                        <a href="#"
-                                            class="badge menu-item-tooltip w-inline-block w-condition-invisible">
-                                            <div class="tooltip">
-                                                <div>Kosher</div>
-                                                <div class="tooltip-arrow"></div>
-                                            </div>
-                                            <div>K</div>
-                                        </a>
-                                        <a href="#"
-                                            class="badge menu-item-tooltip w-inline-block w-condition-invisible">
-                                            <div class="tooltip">
-                                                <div>Spicy</div>
-                                                <div class="tooltip-arrow"></div>
-                                            </div>
-                                            <div>S</div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div role="listitem" class="menu-grid-item w-dyn-item">
-                            <div class="menu-grid-card">
-                                <img src="https://assets.website-files.com/59e98418f9cd070001c89d70/59f8798601b9500001e72c01_brenda-godinez-373449.jpg"
-                                    alt=""
-                                    sizes="(max-width: 479px) 93vw, (max-width: 767px) 47vw, (max-width: 991px) 31vw, 27vw"
-                                    srcset="https://assets.website-files.com/59e98418f9cd070001c89d70/59f8798601b9500001e72c01_brenda-godinez-373449-p-500.jpeg 500w, https://assets.website-files.com/59e98418f9cd070001c89d70/59f8798601b9500001e72c01_brenda-godinez-373449.jpg 740w"
-                                    class="menu-grid-image" />
-                                <a href="/menu-categories/drinks" class="badge menu-item-category">Drinks</a>
-                                <div class="menu-info w-clearfix">
-                                    <div class="menu-info-main">
-                                        <div class="menu-name">Glace</div>
-                                        <div class="menu-dots-line"></div>
-                                        <div class="menu-price">
-                                            <div>$</div>
-                                            <div>5.50</div>
-                                        </div>
-                                    </div>
-                                    <div class="menu-ingredients">Espresso, Ice Cream</div>
-                                    <div class="menu-more w-clearfix">
-                                        <div class="menu-numbers">
-                                            <div>250</div>
-                                            <div>g.</div>
-                                            <div class="menu-numbers-divider">/</div>
-                                            <div>130</div>
-                                            <div>cal.</div>
-                                        </div>
-                                        <a href="#"
-                                            class="badge menu-item-tooltip w-inline-block w-condition-invisible">
-                                            <div class="tooltip">
-                                                <div>Vegan</div>
-                                                <div class="tooltip-arrow"></div>
-                                            </div>
-                                            <div>V</div>
-                                        </a>
-                                        <a href="#"
-                                            class="badge menu-item-tooltip w-inline-block w-condition-invisible">
-                                            <div class="tooltip">
-                                                <div>Kosher</div>
-                                                <div class="tooltip-arrow"></div>
-                                            </div>
-                                            <div>K</div>
-                                        </a>
-                                        <a href="#"
-                                            class="badge menu-item-tooltip w-inline-block w-condition-invisible">
-                                            <div class="tooltip">
-                                                <div>Spicy</div>
-                                                <div class="tooltip-arrow"></div>
-                                            </div>
-                                            <div>S</div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div role="listitem" class="menu-grid-item w-dyn-item">
-                            <div class="menu-grid-card">
-                                <img src="https://assets.website-files.com/59e98418f9cd070001c89d70/5a337221f0c4ab00016b0f85_christine-siracusa-363257.jpg"
-                                    alt=""
-                                    sizes="(max-width: 479px) 93vw, (max-width: 767px) 47vw, (max-width: 991px) 31vw, 27vw"
-                                    srcset="https://assets.website-files.com/59e98418f9cd070001c89d70/5a337221f0c4ab00016b0f85_christine-siracusa-363257-p-500.jpeg 500w, https://assets.website-files.com/59e98418f9cd070001c89d70/5a337221f0c4ab00016b0f85_christine-siracusa-363257.jpg 740w"
-                                    class="menu-grid-image" />
-                                <a href="/menu-categories/dinner" class="badge menu-item-category">Dinner</a>
-                                <div class="menu-info w-clearfix">
-                                    <div class="menu-info-main">
-                                        <div class="menu-name">Asian chicken wrap</div>
-                                        <div class="menu-dots-line"></div>
-                                        <div class="menu-price">
-                                            <div>$</div>
-                                            <div>9.99</div>
-                                        </div>
-                                    </div>
-                                    <div class="menu-ingredients">Sliced Chicken, Broccoli Slaw, Mixed Greens, Wrap,
-                                        Sesame Dressing</div>
-                                    <div class="menu-more w-clearfix">
-                                        <div class="menu-numbers">
-                                            <div>245</div>
-                                            <div>g.</div>
-                                            <div class="menu-numbers-divider">/</div>
-                                            <div>186</div>
-                                            <div>cal.</div>
-                                        </div>
-                                        <a href="#" class="badge menu-item-tooltip w-inline-block">
-                                            <div class="tooltip">
-                                                <div>Vegan</div>
-                                                <div class="tooltip-arrow"></div>
-                                            </div>
-                                            <div>V</div>
-                                        </a>
-                                        <a href="#"
-                                            class="badge menu-item-tooltip w-inline-block w-condition-invisible">
-                                            <div class="tooltip">
-                                                <div>Kosher</div>
-                                                <div class="tooltip-arrow"></div>
-                                            </div>
-                                            <div>K</div>
-                                        </a>
-                                        <a href="#"
-                                            class="badge menu-item-tooltip w-inline-block w-condition-invisible">
-                                            <div class="tooltip">
-                                                <div>Spicy</div>
-                                                <div class="tooltip-arrow"></div>
-                                            </div>
-                                            <div>S</div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <p>
+                   As of 2023, the price pf NARC G1 garlic in pakistan varies depending on the region and the season. Thee avarege price of NARC G1 garlic ranges from Rs. 1800 to Rs. 2000 per kilogram. These prices are slightly higher than the prices of other varieties of garlic in the country, but the quality of NARC G1 garlic justifies the higher price point.
+                </p> 
+                <div style="display: contents;">
+                    <table border="1" style="text-align: center; ">
+                        <thead>
+                          <tr>
+                            <th>NARC G1 Garlic</th>
+                            <th>Minimum Prices</th>
+                            <th>Average Prices</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td data-column="NARC G1 Garlic">Fresh (Wet)</td>
+                            <td data-column="Minimum Prices">Rs. 1800</td>
+                            <td data-column="Average Prices">Rs. 2000</td>
+                          </tr>
+                          <tr>
+                            <td data-column="NARC G1 Garlic">Dried Garlic</td>
+                            <td data-column="Minimum Prices">Rs. 8000</td>
+                            <td data-column="Average Prices">Rs. 9000</td>
+                          </tr>
+                        </tbody>
+                      </table>
                 </div>
             </div>
-            <a href="/menu-grid" data-w-id="52acb8a8-53b0-f52f-df4d-3bf897a51de8" style="opacity:0"
-                class="button w-button">View Full Menu</a>
         </div>
-        <a href="/reservation" class="bg-section huge-button w-inline-block">
-            <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/5a59998b6b273e0001a21e91_order-icon-white.png"
-                width="64" style="opacity:0" data-w-id="e2025dc7-01b5-7c1a-59b8-5a9de0a8c330" alt="" />
-            <h2 data-w-id="861b18a2-ab3a-43ab-aee3-e79082dca8c7" style="opacity:0">Reserve a Table</h2>
-        </a>
         <div class="section pattern-section no-bottom-padding wf-section">
             <div class="wrapper w-container">
                 <div class="side-card-feature">
@@ -456,15 +285,61 @@
                     <div data-ix="fade-left" data-w-id="ff252e3a-eb22-b78e-16eb-59bce7170bde" style="opacity:0"
                         class="side-card">
                         <div class="side-card-content">
-                            <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f5b840fccfea0001f7083e_interior-icon.png"
-                                alt="" class="big-icon" />
-                            <h3 class="side-card-header">Beautiful Interior</h3>
+                            <h3 class="side-card-header">Why You Should Grow NARC G1 Garlic</h3>
                             <div class="divider"></div>
-                            <p class="grey-text">Fish is one of the most wholesome foods that man can eat. In fact,
-                                people have been eating fish throughout human history. These days, many cooks yearn to
-                                add fish to their repertoire.</p>
+                            <p class="grey-text">NARC G1 garlic farming is a high production garlic crop and more
+                                profitable farming in Pakistan. More production per acre and more profit nowadays is
+                                very easy from narc g1 garlic farming. NARC G1 garlic is the best commercial farming
+                                seed according to our atmosphere. G1 garlic is a high yield variety and farmers can get
+                                an estimated yield of 200 mun to 350 mun per acre. We can not only fulfill our garlic
+                                demand on national levels but we can also export it to other countries and help our
+                                economy grow.
+
+                                NARC G1 has more nutritions and health benefits as compared to traditional garlic.
+                                Nutritionists prefer Pakistani G1 Garlic because It is an excellent source of vitamin E,
+                                C, and A. It also contains allicin, which has been known for its antibacterial
+                                properties. Pakistan’s NARC G1 garlic Garlic contains all of the essential amino acids,
+                                saponins, vitamins and minerals that are necessary for human health.</p>
                         </div>
                         <div class="frame"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section pattern-section wf-section">
+            <div class="wrapper w-container">
+                <div class="features">
+                    <div data-ix="fade-left" data-w-id="613d30eb-a825-244c-313d-5e075b72c016" style="opacity:0"
+                        class="feature-banner">
+                        <div class="feature-banner-content">
+                            <h3 class="banner-header">800 Kg</h3>
+                            <h5>Seeds requirements per acre</h5>
+                        </div>
+                        <div class="frame white-frame"></div>
+                    </div>
+                    <div data-ix="fade-left" data-w-id="613d30eb-a825-244c-313d-5e075b72c016" style="opacity:0"
+                        class="feature-banner">
+                        <div class="feature-banner-content">
+                            <h3 class="banner-header">200-350 Mun</h3>
+                            <h5>Yield per acre</h5>
+                        </div>
+                        <div class="frame white-frame"></div>
+                    </div>
+                    <div data-ix="fade-left" data-w-id="613d30eb-a825-244c-313d-5e075b72c016" style="opacity:0"
+                        class="feature-banner">
+                        <div class="feature-banner-content">
+                            <h3 class="banner-header">6-7 Months</h3>
+                            <h5>Crop duration</h5>
+                        </div>
+                        <div class="frame white-frame"></div>
+                    </div>
+                    <div data-ix="fade-left" data-w-id="613d30eb-a825-244c-313d-5e075b72c016" style="opacity:0"
+                        class="feature-banner">
+                        <div class="feature-banner-content">
+                            <h3 class="banner-header">6</h3>
+                            <h5>Number Plantation Rows on one bed</h5>
+                        </div>
+                        <div class="frame white-frame"></div>
                     </div>
                 </div>
             </div>
@@ -475,13 +350,61 @@
                     <div data-ix="fade-right" data-w-id="0e0ee31f-de97-ce02-c2d0-31edad2e26a5" style="opacity:0"
                         class="side-card reversed">
                         <div class="side-card-content">
-                            <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f5b8409f4c3500019cc8e6_apple-icon.png"
-                                alt="" class="big-icon" />
-                            <h3 class="side-card-header">Only Fresh Food</h3>
+                            <h3 class="side-card-header">How to Buy NARC G1 Seeds</h3>
                             <div class="divider"></div>
-                            <p class="grey-text">Fish is one of the most wholesome foods that man can eat. In fact,
-                                people have been eating fish throughout human history. These days, many cooks yearn to
-                                add fish to their repertoire.</p>
+                            <p class="grey-text">To buy our high quality NARC G1 Seeds, you can follow these easy steps
+                                and make your order.</p>
+                            <div>
+                                <figure>
+                                    <img src="./assets/images/weighing-machine.webp" alt="" class="big-icon" />
+                                </figure>
+                                <div>
+                                    <h4>Step 1: Select Seed Weight</h4>
+                                    <p>Select your land or Seed weight on our Price Estimation Calculator and complete
+                                        the order</p>
+                                </div>
+                            </div>
+                            <div>
+                                <figure>
+                                    <img src="./assets/images/customer-service.webp" alt="" class="big-icon" />
+                                </figure>
+                                <div>
+                                    <h4>Step 2: Confirmation Call</h4>
+                                    <p>Schedule a call with our representative. You can visit our fields or Storage
+                                        facility</p>
+                                </div>
+                            </div>
+                            <div>
+                                <figure>
+                                    <img src="./assets/images/salary.webp" alt="" class="big-icon" />
+                                </figure>
+                                <div>
+                                    <h4>Step 3: Make payment</h4>
+                                    <p>Make your Payment via Bank Transfer. Our representative will call you after
+                                        receiving payment</p>
+                                </div>
+                            </div>
+                            <div>
+                                <figure>
+                                    <img src="./assets/images/sowing-seeds.webp" alt="" class="big-icon" />
+                                </figure>
+                                <div>
+                                    <h4>Step 4: Order Completed - Get your seed.</h4>
+                                    <p>You can take your seed right away after completing your order with payment. Or we
+                                        can deliver it to you at your given address.</p>
+                                </div>
+                            </div>
+                            <b>Support team is available 24/7</b>
+                            <div style="display: flex;">
+                                <figure style="margin: auto 10px;">
+                                    <img src="./assets/images/phone.svg" alt="" style="height: 30px;">
+                                </figure>
+                                <a href="https://wa.me/923071996482" class="whatsapp">
+                                    <span>Phone number</span>
+                                    <span>0307 1996482</span>
+                                </a>
+                            </div>
+
                         </div>
                         <div class="frame"></div>
                     </div>
@@ -490,331 +413,120 @@
                 </div>
             </div>
         </div>
-        <div class="section wf-section">
-            <div data-ix="fade-up-2" class="wrapper w-container">
-                <div class="section-header-wrapper">
-                    <div data-w-id="84884bdc-71d1-f2b0-c785-37dc493f2fa0" style="opacity:0" class="sub-header">More
-                        Dishes</div>
-                    <h2 data-w-id="851dcedc-a36a-3a51-f385-304120c475ad" style="opacity:0">From Our Menu</h2>
-                    <div data-w-id="f0a077b8-f5fc-bdf0-acb6-d643b3009d6a" style="opacity:0" class="divider"></div>
-                </div>
-                <div class="w-dyn-list">
-                    <div data-w-id="dfd90665-594f-e3db-31ee-2b754c05c457" style="opacity:0" role="list"
-                        class="menu-list margin w-dyn-items">
-                        <div role="listitem" class="menu-list-item w-dyn-item">
-                            <div class="menu-list-card">
-                                <img src="https://assets.website-files.com/59e98418f9cd070001c89d70/59ed52f441b4090001b5fd90_alexander-mils-instagram-com-alexandermils-151674.jpg"
-                                    alt="" sizes="80px"
-                                    srcset="https://assets.website-files.com/59e98418f9cd070001c89d70/59ed52f441b4090001b5fd90_alexander-mils-instagram-com-alexandermils-151674-p-500.jpeg 500w, https://assets.website-files.com/59e98418f9cd070001c89d70/59ed52f441b4090001b5fd90_alexander-mils-instagram-com-alexandermils-151674.jpg 740w"
-                                    class="menu-list-image" />
-                                <div class="menu-info w-clearfix">
-                                    <div class="menu-info-main">
-                                        <div class="menu-name">Cherry bomb</div>
-                                        <div class="menu-dots-line"></div>
-                                        <div class="menu-price">
-                                            <div>$</div>
-                                            <div>8.90</div>
-                                        </div>
-                                    </div>
-                                    <div class="menu-ingredients">Dark Chocolate, Cherry, Mascarpone</div>
-                                    <div class="menu-more">
-                                        <div class="menu-numbers">
-                                            <div>190</div>
-                                            <div>g.</div>
-                                            <div class="menu-numbers-divider">/</div>
-                                            <div>240</div>
-                                            <div>cal.</div>
-                                        </div>
-                                    </div>
-                                    <div style="background-color:#dfa25f" class="badge menu-new-badge">Special</div>
-                                    <div class="badge menu-item-badge">Vegan</div>
-                                    <div class="badge menu-item-badge">Kosher</div>
-                                    <div class="badge menu-item-badge">Spicy</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div role="listitem" class="menu-list-item w-dyn-item">
-                            <div class="menu-list-card">
-                                <img src="https://assets.website-files.com/59e98418f9cd070001c89d70/59f9106ba38c420001ecbb13_jennifer-pallian-306915.jpg"
-                                    alt="" sizes="80px"
-                                    srcset="https://assets.website-files.com/59e98418f9cd070001c89d70/59f9106ba38c420001ecbb13_jennifer-pallian-306915-p-500.jpeg 500w, https://assets.website-files.com/59e98418f9cd070001c89d70/59f9106ba38c420001ecbb13_jennifer-pallian-306915.jpg 740w"
-                                    class="menu-list-image" />
-                                <div class="menu-info w-clearfix">
-                                    <div class="menu-info-main">
-                                        <div class="menu-name">Cream cheese pancakes</div>
-                                        <div class="menu-dots-line"></div>
-                                        <div class="menu-price">
-                                            <div>$</div>
-                                            <div>6.40</div>
-                                        </div>
-                                    </div>
-                                    <div class="menu-ingredients">Cream Cheese, Eggs, Sugar, Salt, Butter, Mixed Fruits
-                                    </div>
-                                    <div class="menu-more">
-                                        <div class="menu-numbers">
-                                            <div>195</div>
-                                            <div>g.</div>
-                                            <div class="menu-numbers-divider">/</div>
-                                            <div>260</div>
-                                            <div>cal.</div>
-                                        </div>
-                                    </div>
-                                    <div class="badge menu-new-badge w-dyn-bind-empty"></div>
-                                    <div class="badge menu-item-badge">Vegan</div>
-                                    <div class="badge menu-item-badge">Kosher</div>
-                                    <div class="badge menu-item-badge">Spicy</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div role="listitem" class="menu-list-item w-dyn-item">
-                            <div class="menu-list-card">
-                                <img src="https://assets.website-files.com/59e98418f9cd070001c89d70/59f8798601b9500001e72c01_brenda-godinez-373449.jpg"
-                                    alt="" sizes="80px"
-                                    srcset="https://assets.website-files.com/59e98418f9cd070001c89d70/59f8798601b9500001e72c01_brenda-godinez-373449-p-500.jpeg 500w, https://assets.website-files.com/59e98418f9cd070001c89d70/59f8798601b9500001e72c01_brenda-godinez-373449.jpg 740w"
-                                    class="menu-list-image" />
-                                <div class="menu-info w-clearfix">
-                                    <div class="menu-info-main">
-                                        <div class="menu-name">Glace</div>
-                                        <div class="menu-dots-line"></div>
-                                        <div class="menu-price">
-                                            <div>$</div>
-                                            <div>5.50</div>
-                                        </div>
-                                    </div>
-                                    <div class="menu-ingredients">Espresso, Ice Cream</div>
-                                    <div class="menu-more">
-                                        <div class="menu-numbers">
-                                            <div>250</div>
-                                            <div>g.</div>
-                                            <div class="menu-numbers-divider">/</div>
-                                            <div>130</div>
-                                            <div>cal.</div>
-                                        </div>
-                                    </div>
-                                    <div style="background-color:#dfa25f" class="badge menu-new-badge">Special</div>
-                                    <div class="badge menu-item-badge w-condition-invisible">Vegan</div>
-                                    <div class="badge menu-item-badge w-condition-invisible">Kosher</div>
-                                    <div class="badge menu-item-badge w-condition-invisible">Spicy</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div role="listitem" class="menu-list-item w-dyn-item">
-                            <div class="menu-list-card">
-                                <img src="https://assets.website-files.com/59e98418f9cd070001c89d70/59f8fd1301b9500001e7cc10_eszter-biro-253762.jpg"
-                                    alt="" sizes="80px"
-                                    srcset="https://assets.website-files.com/59e98418f9cd070001c89d70/59f8fd1301b9500001e7cc10_eszter-biro-253762-p-500.jpeg 500w, https://assets.website-files.com/59e98418f9cd070001c89d70/59f8fd1301b9500001e7cc10_eszter-biro-253762.jpg 740w"
-                                    class="menu-list-image" />
-                                <div class="menu-info w-clearfix">
-                                    <div class="menu-info-main">
-                                        <div class="menu-name">Greek salad</div>
-                                        <div class="menu-dots-line"></div>
-                                        <div class="menu-price">
-                                            <div>$</div>
-                                            <div>8.00</div>
-                                        </div>
-                                    </div>
-                                    <div class="menu-ingredients">Iceberg Lettuce, Peppers, Tomato, Olives, Feta Cheese,
-                                        Olive Oil</div>
-                                    <div class="menu-more">
-                                        <div class="menu-numbers">
-                                            <div>195</div>
-                                            <div>g.</div>
-                                            <div class="menu-numbers-divider">/</div>
-                                            <div>131</div>
-                                            <div>cal.</div>
-                                        </div>
-                                    </div>
-                                    <div style="background-color:#f03e5a" class="badge menu-new-badge">New</div>
-                                    <div class="badge menu-item-badge">Vegan</div>
-                                    <div class="badge menu-item-badge w-condition-invisible">Kosher</div>
-                                    <div class="badge menu-item-badge w-condition-invisible">Spicy</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div role="listitem" class="menu-list-item w-dyn-item">
-                            <div class="menu-list-card">
-                                <img src="https://assets.website-files.com/59e98418f9cd070001c89d70/59f9120978cc2d0001fd8c52_casey-lee-105763.jpg"
-                                    alt="" sizes="80px"
-                                    srcset="https://assets.website-files.com/59e98418f9cd070001c89d70/59f9120978cc2d0001fd8c52_casey-lee-105763-p-500.jpeg 500w, https://assets.website-files.com/59e98418f9cd070001c89d70/59f9120978cc2d0001fd8c52_casey-lee-105763.jpg 740w"
-                                    class="menu-list-image" />
-                                <div class="menu-info w-clearfix">
-                                    <div class="menu-info-main">
-                                        <div class="menu-name">Grilled chicken with fruit salad</div>
-                                        <div class="menu-dots-line"></div>
-                                        <div class="menu-price">
-                                            <div>$</div>
-                                            <div>8.90</div>
-                                        </div>
-                                    </div>
-                                    <div class="menu-ingredients">Chicken Breast, Spices, Spinach, Melon, Grape, Lemon
-                                        Juice</div>
-                                    <div class="menu-more">
-                                        <div class="menu-numbers">
-                                            <div>225</div>
-                                            <div>g.</div>
-                                            <div class="menu-numbers-divider">/</div>
-                                            <div>270</div>
-                                            <div>cal.</div>
-                                        </div>
-                                    </div>
-                                    <div class="badge menu-new-badge w-dyn-bind-empty"></div>
-                                    <div class="badge menu-item-badge">Vegan</div>
-                                    <div class="badge menu-item-badge w-condition-invisible">Kosher</div>
-                                    <div class="badge menu-item-badge w-condition-invisible">Spicy</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div role="listitem" class="menu-list-item w-dyn-item">
-                            <div class="menu-list-card">
-                                <img src="https://assets.website-files.com/59e98418f9cd070001c89d70/5a337221f0c4ab00016b0f85_christine-siracusa-363257.jpg"
-                                    alt="" sizes="80px"
-                                    srcset="https://assets.website-files.com/59e98418f9cd070001c89d70/5a337221f0c4ab00016b0f85_christine-siracusa-363257-p-500.jpeg 500w, https://assets.website-files.com/59e98418f9cd070001c89d70/5a337221f0c4ab00016b0f85_christine-siracusa-363257.jpg 740w"
-                                    class="menu-list-image" />
-                                <div class="menu-info w-clearfix">
-                                    <div class="menu-info-main">
-                                        <div class="menu-name">Asian chicken wrap</div>
-                                        <div class="menu-dots-line"></div>
-                                        <div class="menu-price">
-                                            <div>$</div>
-                                            <div>9.99</div>
-                                        </div>
-                                    </div>
-                                    <div class="menu-ingredients">Sliced Chicken, Broccoli Slaw, Mixed Greens, Wrap,
-                                        Sesame Dressing</div>
-                                    <div class="menu-more">
-                                        <div class="menu-numbers">
-                                            <div>245</div>
-                                            <div>g.</div>
-                                            <div class="menu-numbers-divider">/</div>
-                                            <div>186</div>
-                                            <div>cal.</div>
-                                        </div>
-                                    </div>
-                                    <div style="background-color:#dfa25f" class="badge menu-new-badge">Special</div>
-                                    <div class="badge menu-item-badge">Vegan</div>
-                                    <div class="badge menu-item-badge w-condition-invisible">Kosher</div>
-                                    <div class="badge menu-item-badge w-condition-invisible">Spicy</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div role="listitem" class="menu-list-item w-dyn-item">
-                            <div class="menu-list-card">
-                                <img src="https://assets.website-files.com/59e98418f9cd070001c89d70/59f87b46930b860001a6f6bb_brooke-lark-200721.jpg"
-                                    alt="" sizes="80px"
-                                    srcset="https://assets.website-files.com/59e98418f9cd070001c89d70/59f87b46930b860001a6f6bb_brooke-lark-200721-p-500.jpeg 500w, https://assets.website-files.com/59e98418f9cd070001c89d70/59f87b46930b860001a6f6bb_brooke-lark-200721.jpg 740w"
-                                    class="menu-list-image" />
-                                <div class="menu-info w-clearfix">
-                                    <div class="menu-info-main">
-                                        <div class="menu-name">Fruit and cheese plate</div>
-                                        <div class="menu-dots-line"></div>
-                                        <div class="menu-price">
-                                            <div>$</div>
-                                            <div>8.79</div>
-                                        </div>
-                                    </div>
-                                    <div class="menu-ingredients">Fresh Fruits, Almond, Brie, Cheddar, Muenster Cheese,
-                                        Crackers</div>
-                                    <div class="menu-more">
-                                        <div class="menu-numbers">
-                                            <div>185</div>
-                                            <div>g.</div>
-                                            <div class="menu-numbers-divider">/</div>
-                                            <div>197</div>
-                                            <div>cal.</div>
-                                        </div>
-                                    </div>
-                                    <div style="background-color:#f03e5a" class="badge menu-new-badge">New</div>
-                                    <div class="badge menu-item-badge">Vegan</div>
-                                    <div class="badge menu-item-badge">Kosher</div>
-                                    <div class="badge menu-item-badge w-condition-invisible">Spicy</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div role="listitem" class="menu-list-item w-dyn-item">
-                            <div class="menu-list-card">
-                                <img src="https://assets.website-files.com/59e98418f9cd070001c89d70/59f908cf269fd600013945ee_omelet-2804868_1280.jpg"
-                                    alt="" sizes="80px"
-                                    srcset="https://assets.website-files.com/59e98418f9cd070001c89d70/59f908cf269fd600013945ee_omelet-2804868_1280-p-500.jpeg 500w, https://assets.website-files.com/59e98418f9cd070001c89d70/59f908cf269fd600013945ee_omelet-2804868_1280.jpg 740w"
-                                    class="menu-list-image" />
-                                <div class="menu-info w-clearfix">
-                                    <div class="menu-info-main">
-                                        <div class="menu-name">Spanish omelette</div>
-                                        <div class="menu-dots-line"></div>
-                                        <div class="menu-price">
-                                            <div>$</div>
-                                            <div>7.25</div>
-                                        </div>
-                                    </div>
-                                    <div class="menu-ingredients">Eggs, Tomato, Green Pepper, Onion, Fresh Herbs,
-                                        Grilled Mushrooms</div>
-                                    <div class="menu-more">
-                                        <div class="menu-numbers">
-                                            <div>175</div>
-                                            <div>g.</div>
-                                            <div class="menu-numbers-divider">/</div>
-                                            <div>189</div>
-                                            <div>cal.</div>
-                                        </div>
-                                    </div>
-                                    <div class="badge menu-new-badge w-dyn-bind-empty"></div>
-                                    <div class="badge menu-item-badge">Vegan</div>
-                                    <div class="badge menu-item-badge">Kosher</div>
-                                    <div class="badge menu-item-badge">Spicy</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a href="/menu-list" data-w-id="92ac7f1d-a063-55da-233e-bd75444ad3a8" style="opacity:0"
-                class="button w-button">View Full Menu</a>
-        </div>
-        <div class="section pattern-section wf-section">
+
+        <div class="bg-section cta-section wf-section">
             <div class="wrapper w-container">
-                <div class="features">
-                    <div data-ix="fade-right" data-w-id="d3f7b76d-de99-83fa-e711-451e0fb027eb" style="opacity:0"
-                        class="feature-image _1">
-                        <h3 class="feature-image-header">Delicious Food</h3>
-                        <p>Fish is one of the most wholesome foods that man can eat. In fact, people have been eating
-                            fish throughout human history.</p>
-                        <a href="/menu-classic" class="button small-button white-hover-button w-button">View Menus</a>
-                    </div>
-                    <div data-ix="fade-left" data-w-id="484c7fd5-06aa-3beb-174a-e8253800cf4a" style="opacity:0"
-                        class="feature-image _2">
-                        <h3 class="feature-image-header">Special Events</h3>
-                        <p>Fish is one of the most wholesome foods that man can eat. In fact, people have been eating
-                            fish throughout human history.</p>
-                        <a href="/blog" class="button small-button white-hover-button w-button">Go to Blog</a>
-                    </div>
-                    <div data-ix="fade-right" data-w-id="15b28208-2395-69ff-78df-3ca0c68613ea" style="opacity:0"
-                        class="feature-text">
-                        <h4>Welcoming Atmosphere</h4>
-                        <p class="grey-text">Fish is one of the most wholesome foods that man can eat. In fact, people
-                            have been eating fish throughout human history. These days, many cooks yearn to add fish to
-                            their repertoire.</p>
-                    </div>
-                    <div data-ix="fade-left" data-w-id="613d30eb-a825-244c-313d-5e075b72c016" style="opacity:0"
-                        class="feature-banner">
-                        <div class="feature-banner-content">
-                            <div class="badge banner-badge">15-18PM</div>
-                            <h2 class="banner-header">Happy Hour</h2>
-                            <h5>Guy 1 drink, get 1 FREE</h5>
-                        </div>
-                        <div class="frame white-frame"></div>
-                    </div>
+                <div data-ix="fade-up-1" class="cta-content">
+                    <h2 data-w-id="eba5040d-99c7-949a-df28-db7a443c7ab7" style="opacity:0">We are growers and
+                        distributors of High Quality Genuine NARC G1 Garlic seed based in Sahiwal, Pakistan. It's a
+                        variety of garlic that is known for its exceptional growth and profitability for farmers.</h2>
+                    <a href="/reservation" data-w-id="384f5d75-d23f-955f-4e4f-623e80e9ca76" style="opacity:0"
+                        class="button w-button">About Us</a>
                 </div>
             </div>
         </div>
-        
-        <div data-w-id="975851d4-1cae-e7e9-55a2-caa9b6cbd63e" style="opacity:0"
+        <!-- <div class="section pattern-section wf-section">
+            <div class="wrapper w-container">
+                <div class="features" style="display: flex; flex-direction: column;"> -->
+                    <div>
+                        <h1 style="text-align: center;">FAQs</h1>
+                    </div>
+                    <div class='faq'>
+                        <input id='faq-a' type='checkbox'>
+                        <label for='faq-a'>
+                            <p class="faq-heading">Can I visit your Farm or Seed Storage facility before purchasing
+                                seed?</p>
+                            <div class='faq-arrow'></div>
+                            <p class="faq-text">Yes you can visit our farms and storage facility any time before
+                                purchasing our seed.</p>
+                        </label>
+                        <input id='faq-b' type='checkbox'>
+                        <label for='faq-b'>
+                            <p class="faq-heading">How can I locate your farm or storage facility?</p>
+                            <div class='faq-arrow'></div>
+                            <p class="faq-text">You can contact our team on given phone numbers and our representative
+                                will guide you to our farm location.</p>
+                        </label>
+                        <input id='faq-c' type='checkbox'>
+                        <label for='faq-c'>
+                            <p class="faq-heading">Do you offer Consultancy service?</p>
+                            <div class='faq-arrow'></div>
+                            <p class="faq-text">Yes, you can consult with our experts any time.</p>
+                        </label>
+                        <input id='faq-d' type='checkbox'>
+                        <label for='faq-d'>
+                            <p class="faq-heading">Do you charge for Consultancy Service?</p>
+                            <div class='faq-arrow'></div>
+                            <p class="faq-text">No, we do not charge any fee for consultancy service.</p>
+                        </label>
+                        <input id='faq-e' type='checkbox'>
+                        <label for='faq-e'>
+                            <p class="faq-heading">How can I calculate the estimated price of G1 Seed?</p>
+                            <div class='faq-arrow'></div>
+                            <p class="faq-text">You can calculate the price on our Seed price calculator [Link]. You can
+                                calculate price by both land or weight.</p>
+                        </label>
+                        <label for='faq-e'>
+                            <p class="faq-heading">Do you offer any discount?</p>
+                            <div class='faq-arrow'></div>
+                            <p class="faq-text">Yes we do offer discounts to our customers. You can find the details on
+                                our price calculator.</p>
+                        </label>
+                        <label for='faq-e'>
+                            <p class="faq-heading">Do I have to make an advance payment to confirm my pre-order?</p>
+                            <div class='faq-arrow'></div>
+                            <p class="faq-text">Yes, you will have to make an advance 25% payment of the total amount to
+                                confirm your order.</p>
+                        </label>
+                        <label for='faq-e'>
+                            <p class="faq-heading">What is The Price of G1 Garlic in Pakistan 2023?</p>
+                            <div class='faq-arrow'></div>
+                            <p class="faq-text">The price of G1 garlic in Pakistan in 2023 may vary depending on the
+                                market conditions and the supplier’s pricing strategy. However, SeedsPk is proud to
+                                offer genuine and authorized fresh G1 garlic seed at a competitive price.</p>
+                        </label>
+                        <label for='faq-e'>
+                            <p class="faq-heading">Is G1 Garlic Seed Available in Pakistan?</p>
+                            <div class='faq-arrow'></div>
+                            <p class="faq-text">Yes, G1 garlic seed is available in Pakistan. However, it’s important to
+                                ensure that you are getting genuine and authentic seed to achieve the best results. At
+                                SeedsPk, we offer high-quality G1 garlic seed. To learn more , please visit our website
+                                or contact us directly.</p>
+                        </label>
+                        <label for='faq-e'>
+                            <p class="faq-heading">How Much G1 Garlic Seed Per acre?</p>
+                            <div class='faq-arrow'></div>
+                            <p class="faq-text">For G1 garlic seed, a general guideline is to plant 800 kilograms or 20
+                                Mun fresh seed per acre. This is the recommended amount to ensure adequate seed coverage
+                                and optimal yield for your garlic crop.
+
+                                Please contact us to discuss your requirements and how we can help you achieve your
+                                desired results.</p>
+                        </label>
+                        <label for='faq-e'>
+                            <p class="faq-heading">What is the Price of G1 Garlic Seed in Pakistan 2022 today?</p>
+                            <div class='faq-arrow'></div>
+                            <p class="faq-text">The latest price range of G1 garlic seed in Pakistan in 2022 is around
+                                1800 to 2000 per KG for fresh garlic seeds on advance booking. However, it’s important
+                                to note that prices may vary depending on factors such as market demand and supply
+                                availability.</p>
+                        </label>
+                        <label for='faq-e'>
+                            <p class="faq-heading">What is the Price of G1 Garlic Seed per KG?</p>
+                            <div class='faq-arrow'></div>
+                            <p class="faq-text">The price can vary depending on the demand and supply of garlic seeds.
+                            </p>
+                        </label>
+                    </div>
+                <!-- </div>
+            </div>
+        </div> -->
+        <div data-w-id="975851d4-1cae-e7e9-55a2-caa9b6cbd63e" style="opacity:0; margin:50px 0;"
             class="bg-section gallery-section wf-section">
             <div class="gallery">
                 <a href="#" class="gallery-image w-inline-block w-lightbox">
                     <div class="zoom-icon"></div>
-                    <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c79ebcb7400011f94c5_gallery-image-01.jpg"
-                        sizes="(max-width: 767px) 49vw, 19vw"
-                        srcset="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c79ebcb7400011f94c5_gallery-image-01-p-500.jpeg 500w, https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c79ebcb7400011f94c5_gallery-image-01.jpg 800w"
-                        alt="" />
+                    <img src="./assets/images/gallery/g-1.jpg" sizes="(max-width: 767px) 49vw, 19vw" alt="" />
                     <script type="application/json" class="w-json">
                             {
   "items": [
@@ -824,7 +536,7 @@
       "fileName": "gallery-image-01-full.jpg",
       "fileSize": 125185,
       "height": 1201,
-      "url": "https://assets.website-files.com/59e98418f9cd070001c89d5a/59f82974baa318000167063e_gallery-image-01-full.jpg",
+      "url": "./assets/images/gallery/g-1.jpg",
       "width": 1600,
       "caption": "Photo caption example",
       "type": "image"
@@ -836,10 +548,7 @@
                 </a>
                 <a href="#" class="gallery-image w-inline-block w-lightbox">
                     <div class="zoom-icon"></div>
-                    <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c8104139300016ad2b5_gallery-image-02.jpg"
-                        sizes="(max-width: 767px) 49vw, 19vw"
-                        srcset="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c8104139300016ad2b5_gallery-image-02-p-500.jpeg 500w, https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c8104139300016ad2b5_gallery-image-02.jpg 800w"
-                        alt="" />
+                    <img src="./assets/images/gallery/g-2.jpg" sizes="(max-width: 767px) 49vw, 19vw" alt="" />
                     <script type="application/json" class="w-json">
                             {
   "items": [
@@ -849,7 +558,7 @@
       "fileName": "gallery-image-02-full.jpg",
       "fileSize": 239519,
       "height": 1067,
-      "url": "https://assets.website-files.com/59e98418f9cd070001c89d5a/59f8297eaab684000124d720_gallery-image-02-full.jpg",
+      "url": "./assets/images/gallery/g-2.jpg",
       "width": 1600,
       "type": "image"
     }
@@ -860,10 +569,7 @@
                 </a>
                 <a href="#" data-ix="show-zoom-icon" class="gallery-image w-inline-block w-lightbox">
                     <div class="zoom-icon"></div>
-                    <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c8504139300016ad2b7_gallery-image-03.jpg"
-                        sizes="(max-width: 767px) 49vw, 19vw"
-                        srcset="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c8504139300016ad2b7_gallery-image-03-p-500.jpeg 500w, https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c8504139300016ad2b7_gallery-image-03.jpg 800w"
-                        alt="" />
+                    <img src="./assets/images/gallery/g-10.jpg" sizes="(max-width: 767px) 49vw, 19vw" alt="" />
                     <script type="application/json" class="w-json">
                             {
   "items": [
@@ -873,7 +579,7 @@
       "fileName": "gallery-image-03-full.jpg",
       "fileSize": 143860,
       "height": 1600,
-      "url": "https://assets.website-files.com/59e98418f9cd070001c89d5a/59f829b7f11fb30001fe14e2_gallery-image-03-full.jpg",
+      "url": "./assets/images/gallery/g-10.jpg",
       "width": 1067,
       "caption": "Photo caption example",
       "type": "image"
@@ -885,10 +591,7 @@
                 </a>
                 <a href="#" data-ix="show-zoom-icon" class="gallery-image w-inline-block w-lightbox">
                     <div class="zoom-icon"></div>
-                    <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c87eac5ea0001c1bf57_gallery-image-04.jpg"
-                        sizes="(max-width: 767px) 49vw, 19vw"
-                        srcset="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c87eac5ea0001c1bf57_gallery-image-04-p-500.jpeg 500w, https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c87eac5ea0001c1bf57_gallery-image-04.jpg 800w"
-                        alt="" />
+                    <img src="./assets/images/gallery/g-4.jpg" sizes="(max-width: 767px) 49vw, 19vw" alt="" />
                     <script type="application/json" class="w-json">
                             {
   "items": [
@@ -898,7 +601,7 @@
       "fileName": "gallery-image-04-full.jpg",
       "fileSize": 221957,
       "height": 1067,
-      "url": "https://assets.website-files.com/59e98418f9cd070001c89d5a/59f829bbf11fb30001fe14e3_gallery-image-04-full.jpg",
+      "url": "./assets/images/gallery/g-4.jpg",
       "width": 1600,
       "type": "image"
     }
@@ -906,154 +609,27 @@
   "group": "Gallery"
 }
                         </script>
-                </a>
-                <a href="#" data-ix="show-zoom-icon" class="gallery-image w-inline-block w-lightbox">
-                    <div class="zoom-icon"></div>
-                    <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c88ebcb7400011f94cd_gallery-image-05.jpg"
-                        sizes="(max-width: 767px) 49vw, 19vw"
-                        srcset="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c88ebcb7400011f94cd_gallery-image-05-p-500.jpeg 500w, https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c88ebcb7400011f94cd_gallery-image-05.jpg 800w"
-                        alt="" />
-                    <script type="application/json" class="w-json">
-                            {
-  "items": [
-    {
-      "_id": "59f829bd2817100001d1b787",
-      "origFileName": "gallery-image-05-full.jpg",
-      "fileName": "gallery-image-05-full.jpg",
-      "fileSize": 178011,
-      "height": 1067,
-      "url": "https://assets.website-files.com/59e98418f9cd070001c89d5a/59f829bd2817100001d1b787_gallery-image-05-full.jpg",
-      "width": 1600,
-      "caption": "Photo caption example",
-      "type": "image"
-    }
-  ],
-  "group": "Gallery"
-}
-                        </script>
-                </a>
-                <a href="#" data-ix="show-zoom-icon" class="gallery-image w-inline-block w-lightbox">
-                    <div class="zoom-icon"></div>
-                    <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c89696c200001fc9240_gallery-image-06.jpg"
-                        sizes="(max-width: 767px) 49vw, 19vw"
-                        srcset="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c89696c200001fc9240_gallery-image-06-p-500.jpeg 500w, https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c89696c200001fc9240_gallery-image-06.jpg 800w"
-                        alt="" />
-                    <script type="application/json" class="w-json">
-                            {
-  "items": [
-    {
-      "_id": "59f5b741defbd90001013711",
-      "origFileName": "rawpixel-com-247358.jpg",
-      "fileName": "rawpixel-com-247358.jpg",
-      "fileSize": 303642,
-      "height": 1200,
-      "url": "https://assets.website-files.com/59e98418f9cd070001c89d5a/59f5b741defbd90001013711_rawpixel-com-247358.jpg",
-      "width": 1698,
-      "type": "image"
-    }
-  ],
-  "group": "Gallery"
-}
-                        </script>
-                </a>
-                <a href="#" data-ix="show-zoom-icon" class="gallery-image w-inline-block w-lightbox">
-                    <div class="zoom-icon"></div>
-                    <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c8aeac5ea0001c1bf58_gallery-image-07.jpg"
-                        sizes="(max-width: 767px) 49vw, 19vw"
-                        srcset="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c8aeac5ea0001c1bf58_gallery-image-07-p-500.jpeg 500w, https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c8aeac5ea0001c1bf58_gallery-image-07.jpg 800w"
-                        alt="" />
-                    <script type="application/json" class="w-json">
-                            {
-  "items": [
-    {
-      "_id": "59f829c0baa318000167067c",
-      "origFileName": "gallery-image-07-full.jpg",
-      "fileName": "gallery-image-07-full.jpg",
-      "fileSize": 272048,
-      "height": 1067,
-      "url": "https://assets.website-files.com/59e98418f9cd070001c89d5a/59f829c0baa318000167067c_gallery-image-07-full.jpg",
-      "width": 1600,
-      "caption": "Photo caption example",
-      "type": "image"
-    }
-  ],
-  "group": "Gallery"
-}
-                        </script>
-                </a>
-                <a href="#" data-ix="show-zoom-icon" class="gallery-image w-inline-block w-lightbox">
-                    <div class="zoom-icon"></div>
-                    <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c8b696c200001fc9242_gallery-image-08.jpg"
-                        sizes="(max-width: 767px) 49vw, 19vw"
-                        srcset="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c8b696c200001fc9242_gallery-image-08-p-500.jpeg 500w, https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71c8b696c200001fc9242_gallery-image-08.jpg 800w"
-                        alt="" />
-                    <script type="application/json" class="w-json">
-                            {
-  "items": [
-    {
-      "_id": "59f829c3d3f5090001bfcf3f",
-      "origFileName": "gallery-image-08-full.jpg",
-      "fileName": "gallery-image-08-full.jpg",
-      "fileSize": 171823,
-      "height": 1600,
-      "url": "https://assets.website-files.com/59e98418f9cd070001c89d5a/59f829c3d3f5090001bfcf3f_gallery-image-08-full.jpg",
-      "width": 1067,
-      "type": "image"
-    }
-  ],
-  "group": "Gallery"
-}
-                        </script>
-                </a>
-                <a href="#" data-ix="show-zoom-icon" class="gallery-image w-inline-block w-lightbox">
-                    <div class="zoom-icon"></div>
-                    <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71ca7eac5ea0001c1bf64_gallery-image-09.jpg"
-                        sizes="(max-width: 767px) 49vw, 19vw"
-                        srcset="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71ca7eac5ea0001c1bf64_gallery-image-09-p-500.jpeg 500w, https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71ca7eac5ea0001c1bf64_gallery-image-09.jpg 800w"
-                        alt="" />
-                    <script type="application/json" class="w-json">
-                            {
-  "items": [
-    {
-      "_id": "59f71ca7eac5ea0001c1bf64",
-      "origFileName": "gallery-image-09.jpg",
-      "fileName": "gallery-image-09.jpg",
-      "fileSize": 72171,
-      "height": 800,
-      "url": "https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71ca7eac5ea0001c1bf64_gallery-image-09.jpg",
-      "width": 800,
-      "caption": "Photo caption example",
-      "type": "image"
-    }
-  ],
-  "group": "Gallery"
-}
-                        </script>
-                </a>
-                <a href="#" data-ix="show-zoom-icon" class="gallery-image w-inline-block w-lightbox">
-                    <div class="zoom-icon"></div>
-                    <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71ca914023c0001d82798_gallery-image-10.jpg"
-                        sizes="(max-width: 767px) 49vw, 19vw"
-                        srcset="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71ca914023c0001d82798_gallery-image-10-p-500.jpeg 500w, https://assets.website-files.com/59e98418f9cd070001c89d5a/59f71ca914023c0001d82798_gallery-image-10.jpg 800w"
-                        alt="" />
-                    <script type="application/json" class="w-json">
-                            {
-  "items": [
-    {
-      "_id": "59f829ca2817100001d1b840",
-      "origFileName": "gallery-image-10-full.jpg",
-      "fileName": "gallery-image-10-full.jpg",
-      "fileSize": 395968,
-      "height": 1600,
-      "url": "https://assets.website-files.com/59e98418f9cd070001c89d5a/59f829ca2817100001d1b840_gallery-image-10-full.jpg",
-      "width": 1600,
-      "type": "image"
-    }
-  ],
-  "group": "Gallery"
-}
-                        </script>
-                </a>
+                    <a href="#" data-ix="show-zoom-icon" class="gallery-image w-inline-block w-lightbox">
+                        <div class="zoom-icon"></div>
+                        <img src="./assets/images/gallery/g-9.jpg" sizes="(max-width: 767px) 49vw, 19vw" alt="" />
+                        <script type="application/json" class="w-json">
+                                    {
+          "items": [
+            {
+              "_id": "59f829bbf11fb30001fe14e3",
+              "origFileName": "gallery-image-04-full.jpg",
+              "fileName": "gallery-image-04-full.jpg",
+              "fileSize": 221957,
+              "height": 1067,
+              "url": "./assets/images/gallery/g-9.jpg",
+              "width": 1600,
+              "type": "image"
+            }
+          ],
+          "group": "Gallery"
+        }
+                                </script>
+                    </a>
             </div>
         </div>
         <div class="section pattern-section wf-section">
@@ -1066,19 +642,21 @@
                                 alt="" class="big-icon" />
                             <h3>Easy to Find</h3>
                             <div class="divider"></div>
-                            <p class="grey-text">Delicious Cafe, 1649 Norman Street, Los Angeles, 90011</p>
-                            <a href="#" class="contact-card-email">info@cafedomain.com</a>
-                            <div class="red-text">8 (800) 316-06-42</div>
+                            <p class="grey-text">Fareed Town Sahiwal, Punjab 5700</p>
+                            <a href="#" class="contact-card-email">contact@support.com</a>
+                            <div class="red-text">0307 1996482</div>
                         </div>
-                        <div data-widget-latlng="34.0583477,-118.176879" data-widget-zoom="13" data-enable-scroll="true"
-                            data-enable-touch="true" data-widget-tooltip="" data-widget-style="roadmap" title=""
-                            class="contact-card-map w-widget w-widget-map"></div>
+                        <iframe data-widget-latlng="34.0583477,-118.176879" data-widget-zoom="13"
+                            data-enable-scroll="true" -widget-tooltip="" data-widget-style="roadmap" title=""
+                            class="contact-card-map w-widget w-widget-map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d425.5424420064188!2d74.35408238697735!3d31.432318257269706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919057570bf29db%3A0x6066c3d127bf5d30!2sNARC%20G1%20GARLIC!5e0!3m2!1sen!2s!4v1686553987804!5m2!1sen!2s"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <div data-ix="fade-left" data-w-id="21e650e2-6a4c-3f79-94de-40cdaf16250c" style="opacity:0"
                         class="working-hours">
                         <div class="working-hours-content">
-                            <div class="sub-header small">Welcome</div>
-                            <h3>Opening Hours</h3>
+                            <h3>Meeting Hours</h3>
                             <div class="opening-hours-table">
                                 <div class="opening-hours-cell">
                                     <div>Monday</div>
@@ -1116,8 +694,8 @@
                                     <div class="opening-hours-time red-text">Closed</div>
                                 </div>
                             </div>
-                            <a href="/reservation"
-                                class="button small-button white-hover-button w-button">Reservation</a>
+                            <a href="https://wa.me/923071996482"
+                                class="button small-button white-hover-button w-button">Book Now</a>
                         </div>
                         <div class="frame white-frame"></div>
                     </div>
@@ -1128,118 +706,82 @@
             <div class="wrapper w-container">
                 <div class="footer">
                     <div class="footer-column">
-                        <h5 class="footer-header">Contact Info</h5>
-                        <p>Delicious Cafe, 1649 Norman Street, 
-                            Los Angeles, 90011</p>
-                        <a href="mailto:test@test.com?subject=Hello!" class="footer-email">hello@deliciouscafe.com</a>
-                        <p>8 (800) 316-06-42</p>
+                        <h5 class="footer-header">Promo Garlic</h5>
+                        <p>Promo Garlic is a trusted brand with an experienced team in the world of agriculture that
+                            provide quality seeds and high yield crops</p>
                         <div class="social-icons footer-icons">
-                            <a href="https://twitter.com" target="_blank" class="social-link w-inline-block">
-                                <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/59e98418f9cd070001c89db7_twitter-icon-white.svg"
-                                    alt="" />
+                            <a href="https://twitter.com" target="_blank"
+                                class="social-link hero-link w-inline-block twitter-link">
+                                <img src="./assets/images/twitter-icon.svg" alt="" />
                             </a>
-                            <a href="https://facebook.com" target="_blank" class="social-link w-inline-block">
-                                <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/59e98418f9cd070001c89dae_facebook-icon-white.svg"
-                                    alt="" />
+                            <a href="https://facebook.com" target="_blank"
+                                class="social-link hero-link w-inline-block facebook-link">
+                                <img src="./assets/images/facebook-icon.svg" alt="" />
                             </a>
-                            <a href="https://instagram.com" target="_blank" class="social-link w-inline-block">
-                                <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/59e98418f9cd070001c89daf_instagram-icon-white.svg"
-                                    alt="" />
+                            <a href="https://instagram.com" target="_blank"
+                                class="social-link hero-link w-inline-block instagram-link">
+                                <img src="./assets/images/instagram-icon.svg" alt="" />
+                            </a>
+                            <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=contact@support.com&amp;su=&amp;body="
+                                target="_blank" class="social-link hero-link w-inline-block gmail-link">
+                                <img src="./assets/images/gmail.svg" alt="" />
                             </a>
                         </div>
                     </div>
                     <div class="footer-column">
-                        <h5 class="footer-header">Navigation</h5>
-                        <a href="/" aria-current="page" class="footer-link w--current">Home</a>
-                        <div class="footer-link-badge">
-                            <a href="/menu-small-grid" class="footer-link">Menu</a>
-                            <div class="badge footer-badge">Updated</div>
-                        </div>
-                        <a href="/blog" class="footer-link">Blog</a>
-                        <a href="/about" class="footer-link">About</a>
-                        <a href="/contact" class="footer-link">Contact</a>
-                        <a href="/reservation" class="footer-link green-text">Book a Table</a>
-                    </div>
-                    <div class="footer-column">
-                        <h5 class="footer-header">Recent Posts</h5>
-                        <div class="footer-posts w-dyn-list">
-                            <div role="list" class="w-dyn-items">
-                                <div role="listitem" class="footer-post w-dyn-item">
-                                    <div>
-                                        <div class="footer-post-date">July 30, 2017</div>
-                                        <a href="/blog/barbecue-party-tips-for-a-truly-amazing-event"
-                                            class="footer-post-header">Barbecue party tips for a truly amazing event</a>
-                                    </div>
-                                </div>
-                                <div role="listitem" class="footer-post w-dyn-item">
-                                    <div>
-                                        <div class="footer-post-date">August 9, 2017</div>
-                                        <a href="/blog/the-principles-of-scientific-cooking"
-                                            class="footer-post-header">The principles of scientific cooking</a>
-                                    </div>
-                                </div>
-                                <div role="listitem" class="footer-post w-dyn-item">
-                                    <div>
-                                        <div class="footer-post-date">September 24, 2017</div>
-                                        <a href="/blog/cooking-for-one" class="footer-post-header">Cooking for one</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="/blog" class="footer-link blog-link">View All Posts</a>
+                        <h5 class="footer-header">Contact Info</h5>
+                        <p>Fareed Town Sahiwal, Punjab 5700</p>
+                        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=contact@support.com&amp;su=&amp;body="
+                            class="footer-email">contact@support.com</a>
+                        <p>0307 1996482</p>
                     </div>
                     <div class="footer-column">
                         <h5 class="footer-header">Instagram</h5>
                         <div class="footer-instagram-photos">
                             <a href="https://www.instagram.com" target="_blank" class="instagram-photo w-inline-block">
                                 <div data-ix="hide-on-load" class="zoom-icon small"></div>
-                                <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/5a901e8051487600011555f1_instagram-01.jpg"
+                                <img src="./assets/images/gallery/g-1.jpg"
                                     alt="" class="full-width" />
                             </a>
                             <a href="https://www.instagram.com" target="_blank" class="instagram-photo w-inline-block">
                                 <div data-ix="hide-on-load" class="zoom-icon small"></div>
-                                <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/5a901e8019e7db0001fdbd2f_instagram-02.jpg"
+                                <img src="./assets/images/gallery/g-2.jpg"
                                     alt="" class="full-width" />
                             </a>
                             <a href="https://www.instagram.com" target="_blank" class="instagram-photo w-inline-block">
                                 <div data-ix="hide-on-load" class="zoom-icon small"></div>
-                                <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/5a901e8019e7db0001fdbd2e_instagram-03.jpg"
+                                <img src="./assets/images/gallery/g-3.jpg"
                                     alt="" class="full-width" />
                             </a>
                             <a href="https://www.instagram.com" target="_blank" class="instagram-photo w-inline-block">
                                 <div data-ix="hide-on-load" class="zoom-icon small"></div>
-                                <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/5a901e80b223b60001243d80_instagram-04.jpg"
+                                <img src="./assets/images/gallery/g-4.jpg"
                                     alt="" class="full-width" />
                             </a>
                             <a href="https://www.instagram.com" target="_blank" class="instagram-photo w-inline-block">
                                 <div data-ix="hide-on-load" class="zoom-icon small"></div>
-                                <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/5a901e8051487600011555f0_instagram-05.jpg"
+                                <img src="./assets/images/gallery/g-9.jpg"
                                     alt="" class="full-width" />
                             </a>
                             <a href="https://www.instagram.com" target="_blank" class="instagram-photo w-inline-block">
                                 <div data-ix="hide-on-load" class="zoom-icon small"></div>
-                                <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/5a901e80ec586e0001d6626b_instagram-06.jpg"
+                                <img src="./assets/images/gallery/g-8.jpg"
                                     alt="" class="full-width" />
                             </a>
                         </div>
-                        <a href="http://instagram.com" target="_blank" class="footer-link blog-link">View More
-                            Photos</a>
                     </div>
                     <div class="footer-bottom">
                         <div class="footer-bottom-content">
-                            <div class="footer-bottom-text">Created with</div>
-                            <img src="https://assets.website-files.com/59e98418f9cd070001c89d5a/59f1b3b9ffa06300013b6b90_heart-icon.svg"
-                                alt="" class="heart-icon" />
-                            <div class="footer-bottom-text">by</div>
-                            <a href="https://www.elasticthemes.com/" target="_blank"
-                                class="footer-bottom-text link">Elastic Themes</a>
-                            <div class="footer-bottom-divider"></div>
-                            <div class="footer-bottom-text">Powered by</div>
-                            <a href="https://webflow.com" target="_blank" class="footer-bottom-text link">Webflow</a>
-                            <div class="footer-bottom-divider"></div>
-                            <a href="/template/style-guide" class="footer-bottom-text link">Style Guide</a>
-                            <div class="footer-bottom-divider"></div>
-                            <a href="/template/licensing" class="footer-bottom-text link">Licenses</a>
+                            <div>
+                                Promo Garlic &copy;
+                                All rights reserved | Copyright
+                                <script>document.write(new Date().getFullYear());</script>
+                            </div>
+                            <div>
+                                <a href="/privacy-policy.html" class="footer-link">Privacy Policy | </a>
+                                <a href="/terms.html" class="footer-link">Terms & Condition | </a>
+                                <a href="/disclaimer.html" class="footer-link">Disclaimer </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1247,9 +789,8 @@
             <div class="footer-bottom-base"></div>
         </footer>
     </div>
-    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=59e98418f9cd070001c89d5a"
-        type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-        crossorigin="anonymous"></script>
+    <script src="/assets/jquery/js/jquery-3.5.1.min.dc5e7f18c8.js" type="text/javascript"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="./assets/js/script.js" type="text/javascript"></script>
 </body>
 
