@@ -2567,13 +2567,13 @@ figcaption {
       from(rgba(0, 0, 0, 0.4)),
       to(rgba(0, 0, 0, 0.4))
     ),
-    url("../images/field.jpg");
+    url("../images/field.jpeg");
   background-image: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    url("../images/field.jpg");
+    url("../images/field.jpeg");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -2721,13 +2721,13 @@ figcaption {
       from(rgba(17, 17, 17, 0.5)),
       to(rgba(17, 17, 17, 0.5))
     ),
-    url("../images/gallery/g-9.jpg");
+    url("../images/field.jpeg");
   background-image: linear-gradient(
       180deg,
       rgba(17, 17, 17, 0.5),
       rgba(17, 17, 17, 0.5)
     ),
-    url("../images/gallery/g-9.jpg");
+    url("../images/field.jpeg");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -2951,11 +2951,23 @@ figcaption {
   background-color: #1da1f2;
 }
 
+.twitter-link-static {
+  background-color: #1da1f2;
+}
+
 .facebook-link:hover {
   background-color: hsl(213.85deg 89.34% 52.16%);
 }
 
+.facebook-link-static{
+  background-color: hsl(213.85deg 89.34% 52.16%);
+}
+
 .instagram-link:hover {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+.instagram-link-static {
   background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
 }
 
@@ -3804,13 +3816,13 @@ figcaption {
       from(rgba(0, 0, 0, 0.4)),
       to(rgba(0, 0, 0, 0.4))
     ),
-    url("../images/hero.jpg");
+    url("../images/hero.jpeg");
   background-image: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    url("../images/hero.jpg");
+    url("../images/hero.jpeg");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -4515,7 +4527,7 @@ figcaption {
   margin-left: 15px;
   padding: 72px 56px 56px;
   background-color: #232d41;
-  background-image: url("https://assets.website-files.com/59e98418f9cd070001c89d5a/5a5a10b011f84b0001e85ae7_bg-pattern.jpg");
+  /* background-image: url("https://assets.website-files.com/59e98418f9cd070001c89d5a/5a5a10b011f84b0001e85ae7_bg-pattern.jpg"); */
   background-position: 0px 0px;
 }
 
@@ -4618,19 +4630,19 @@ figcaption {
 }
 
 .side-card-image {
-  width: 65.8%;
+  width: 45%;
   background-color: #e3e3e3;
 }
 
 .side-card-image._1 {
-  background-image: url("../images/narc-g1.jpg");
+  background-image: url("../images/narc-g1.jpeg");
   background-position: 0px 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .side-card-image._2 {
-  background-image: url("../images/leek.jpg");
+  background-image: url("../images/leek.jpeg");
   background-position: 100% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -4641,7 +4653,7 @@ figcaption {
   z-index: 1;
   margin-top: 80px;
   margin-bottom: 80px;
-  margin-left: -14.4%;
+  margin-left: 5%;
   padding: 80px 8%;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -5895,7 +5907,7 @@ figcaption {
   .side-card {
     margin-top: 48px;
     margin-bottom: 48px;
-    margin-left: -16.66%;
+    /* margin-left: -16.66%; */
   }
 
   .side-card.reversed {
@@ -6312,7 +6324,7 @@ figcaption {
   .side-card {
     display: block;
     width: 83.33%;
-    margin: -48px auto 0px;
+    margin: 20px auto 0px;
     padding-top: 56px;
     padding-bottom: 40px;
   }
